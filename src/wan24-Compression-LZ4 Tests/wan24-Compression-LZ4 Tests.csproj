@@ -11,12 +11,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="7.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="7.0.0" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.5.0" />
     <PackageReference Include="MSTest.TestAdapter" Version="3.0.2" />
     <PackageReference Include="MSTest.TestFramework" Version="3.0.2" />
     <PackageReference Include="coverlet.collector" Version="3.2.0" />
     <PackageReference Include="wan24-Compression-Shared-Tests" Version="1.4.0" />
-    <PackageReference Include="wan24-Core" Version="1.7.0" />
   </ItemGroup>
 
   <ItemGroup>
