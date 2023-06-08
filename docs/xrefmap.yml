@@ -109,3 +109,9 @@ references:
   isSpec: "True"
   fullName: wan24.Compression.LZ4.Lz4CompressionAlgorithm.Instance
   nameWithType: Lz4CompressionAlgorithm.Instance
+- uid: wan24.Compression.LZ4.Lz4CompressionAlgorithm.PROFILE_LZ4_RAW
+  name: PROFILE_LZ4_RAW
+  href: api/wan24.Compression.LZ4.Lz4CompressionAlgorithm.html#wan24_Compression_LZ4_Lz4CompressionAlgorithm_PROFILE_LZ4_RAW
+  commentId: F:wan24.Compression.LZ4.Lz4CompressionAlgorithm.PROFILE_LZ4_RAW
+  fullName: wan24.Compression.LZ4.Lz4CompressionAlgorithm.PROFILE_LZ4_RAW
+  nameWithType: Lz4CompressionAlgorithm.PROFILE_LZ4_RAW

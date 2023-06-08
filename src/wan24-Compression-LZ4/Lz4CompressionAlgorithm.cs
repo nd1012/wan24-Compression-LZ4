@@ -18,6 +18,10 @@ namespace wan24.Compression.LZ4
         /// Algorithm value
         /// </summary>
         public const int ALGORITHM_VALUE = 2;
+        /// <summary>
+        /// LZ4 raw (without header) profile key
+        /// </summary>
+        public const string PROFILE_LZ4_RAW = "LZ4_RAW";
 
         /// <summary>
         /// Static constructor
