@@ -1,6 +1,7 @@
 ﻿using K4os.Compression.LZ4;
 using K4os.Compression.LZ4.Streams;
 using System.IO.Compression;
+using wan24.Core;
 using wan24.MappingObject;
 
 namespace wan24.Compression.LZ4
@@ -52,10 +53,10 @@ namespace wan24.Compression.LZ4
         public override Stream GetCompressionStream(Stream compressedTarget, CompressionOptions? options = null)
         {
             options ??= DefaultOptions;
+            if (options.Level == CompressionLevel.NoCompression) return new LimitedStream(compressedTarget, canRead: false, canWrite: true, canSeek: false, options.LeaveOpen);
             LZ4EncoderSettings settings = Mappings.MapTo(EncoderSettings, new LZ4EncoderSettings());
             settings.CompressionLevel = options.Level switch
             {
-                CompressionLevel.NoCompression => LZ4Level.L00_FAST,//TODO In this case use a stream wrapper, which does nothing, 'cause no compression was requested!
                 CompressionLevel.Fastest => LZ4Level.L00_FAST,
                 CompressionLevel.Optimal => LZ4Level.L11_OPT,
                 CompressionLevel.SmallestSize => LZ4Level.L12_MAX,
