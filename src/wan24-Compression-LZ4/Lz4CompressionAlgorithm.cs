@@ -50,9 +50,8 @@ namespace wan24.Compression.LZ4
         public static LZ4DecoderSettings DecoderSettings { get; set; } = new();
 
         /// <inheritdoc/>
-        public override Stream GetCompressionStream(Stream compressedTarget, CompressionOptions? options = null)
+        protected override Stream CreateCompressionStream(Stream compressedTarget, CompressionOptions options)
         {
-            options ??= DefaultOptions;
             if (options.Level == CompressionLevel.NoCompression) return new LimitedStream(compressedTarget, canRead: false, canWrite: true, canSeek: false, options.LeaveOpen);
             LZ4EncoderSettings settings = Mappings.MapTo(EncoderSettings, new LZ4EncoderSettings());
             settings.CompressionLevel = options.Level switch
@@ -66,10 +65,6 @@ namespace wan24.Compression.LZ4
         }
 
         /// <inheritdoc/>
-        public override Stream GetDecompressionStream(Stream source, CompressionOptions? options = null)
-        {
-            options ??= DefaultOptions;
-            return LZ4Stream.Decode(source, DecoderSettings, options.LeaveOpen);
-        }
+        protected override Stream CreateDecompressionStream(Stream source, CompressionOptions options) => LZ4Stream.Decode(source, DecoderSettings, options.LeaveOpen);
     }
 }
