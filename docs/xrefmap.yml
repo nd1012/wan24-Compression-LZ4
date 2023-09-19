@@ -44,6 +44,32 @@ references:
   commentId: F:wan24.Compression.LZ4.Lz4CompressionAlgorithm.ALGORITHM_VALUE
   fullName: wan24.Compression.LZ4.Lz4CompressionAlgorithm.ALGORITHM_VALUE
   nameWithType: Lz4CompressionAlgorithm.ALGORITHM_VALUE
+- uid: wan24.Compression.LZ4.Lz4CompressionAlgorithm.CreateCompressionStream(Stream,wan24.Compression.CompressionOptions)
+  name: CreateCompressionStream(Stream, CompressionOptions)
+  href: api/wan24.Compression.LZ4.Lz4CompressionAlgorithm.html#wan24_Compression_LZ4_Lz4CompressionAlgorithm_CreateCompressionStream_Stream_wan24_Compression_CompressionOptions_
+  commentId: M:wan24.Compression.LZ4.Lz4CompressionAlgorithm.CreateCompressionStream(Stream,wan24.Compression.CompressionOptions)
+  fullName: wan24.Compression.LZ4.Lz4CompressionAlgorithm.CreateCompressionStream(Stream, wan24.Compression.CompressionOptions)
+  nameWithType: Lz4CompressionAlgorithm.CreateCompressionStream(Stream, CompressionOptions)
+- uid: wan24.Compression.LZ4.Lz4CompressionAlgorithm.CreateCompressionStream*
+  name: CreateCompressionStream
+  href: api/wan24.Compression.LZ4.Lz4CompressionAlgorithm.html#wan24_Compression_LZ4_Lz4CompressionAlgorithm_CreateCompressionStream_
+  commentId: Overload:wan24.Compression.LZ4.Lz4CompressionAlgorithm.CreateCompressionStream
+  isSpec: "True"
+  fullName: wan24.Compression.LZ4.Lz4CompressionAlgorithm.CreateCompressionStream
+  nameWithType: Lz4CompressionAlgorithm.CreateCompressionStream
+- uid: wan24.Compression.LZ4.Lz4CompressionAlgorithm.CreateDecompressionStream(Stream,wan24.Compression.CompressionOptions)
+  name: CreateDecompressionStream(Stream, CompressionOptions)
+  href: api/wan24.Compression.LZ4.Lz4CompressionAlgorithm.html#wan24_Compression_LZ4_Lz4CompressionAlgorithm_CreateDecompressionStream_Stream_wan24_Compression_CompressionOptions_
+  commentId: M:wan24.Compression.LZ4.Lz4CompressionAlgorithm.CreateDecompressionStream(Stream,wan24.Compression.CompressionOptions)
+  fullName: wan24.Compression.LZ4.Lz4CompressionAlgorithm.CreateDecompressionStream(Stream, wan24.Compression.CompressionOptions)
+  nameWithType: Lz4CompressionAlgorithm.CreateDecompressionStream(Stream, CompressionOptions)
+- uid: wan24.Compression.LZ4.Lz4CompressionAlgorithm.CreateDecompressionStream*
+  name: CreateDecompressionStream
+  href: api/wan24.Compression.LZ4.Lz4CompressionAlgorithm.html#wan24_Compression_LZ4_Lz4CompressionAlgorithm_CreateDecompressionStream_
+  commentId: Overload:wan24.Compression.LZ4.Lz4CompressionAlgorithm.CreateDecompressionStream
+  isSpec: "True"
+  fullName: wan24.Compression.LZ4.Lz4CompressionAlgorithm.CreateDecompressionStream
+  nameWithType: Lz4CompressionAlgorithm.CreateDecompressionStream
 - uid: wan24.Compression.LZ4.Lz4CompressionAlgorithm.DecoderSettings
   name: DecoderSettings
   href: api/wan24.Compression.LZ4.Lz4CompressionAlgorithm.html#wan24_Compression_LZ4_Lz4CompressionAlgorithm_DecoderSettings
@@ -70,32 +96,6 @@ references:
   isSpec: "True"
   fullName: wan24.Compression.LZ4.Lz4CompressionAlgorithm.EncoderSettings
   nameWithType: Lz4CompressionAlgorithm.EncoderSettings
-- uid: wan24.Compression.LZ4.Lz4CompressionAlgorithm.GetCompressionStream(Stream,wan24.Compression.CompressionOptions)
-  name: GetCompressionStream(Stream, CompressionOptions)
-  href: api/wan24.Compression.LZ4.Lz4CompressionAlgorithm.html#wan24_Compression_LZ4_Lz4CompressionAlgorithm_GetCompressionStream_Stream_wan24_Compression_CompressionOptions_
-  commentId: M:wan24.Compression.LZ4.Lz4CompressionAlgorithm.GetCompressionStream(Stream,wan24.Compression.CompressionOptions)
-  fullName: wan24.Compression.LZ4.Lz4CompressionAlgorithm.GetCompressionStream(Stream, wan24.Compression.CompressionOptions)
-  nameWithType: Lz4CompressionAlgorithm.GetCompressionStream(Stream, CompressionOptions)
-- uid: wan24.Compression.LZ4.Lz4CompressionAlgorithm.GetCompressionStream*
-  name: GetCompressionStream
-  href: api/wan24.Compression.LZ4.Lz4CompressionAlgorithm.html#wan24_Compression_LZ4_Lz4CompressionAlgorithm_GetCompressionStream_
-  commentId: Overload:wan24.Compression.LZ4.Lz4CompressionAlgorithm.GetCompressionStream
-  isSpec: "True"
-  fullName: wan24.Compression.LZ4.Lz4CompressionAlgorithm.GetCompressionStream
-  nameWithType: Lz4CompressionAlgorithm.GetCompressionStream
-- uid: wan24.Compression.LZ4.Lz4CompressionAlgorithm.GetDecompressionStream(Stream,wan24.Compression.CompressionOptions)
-  name: GetDecompressionStream(Stream, CompressionOptions)
-  href: api/wan24.Compression.LZ4.Lz4CompressionAlgorithm.html#wan24_Compression_LZ4_Lz4CompressionAlgorithm_GetDecompressionStream_Stream_wan24_Compression_CompressionOptions_
-  commentId: M:wan24.Compression.LZ4.Lz4CompressionAlgorithm.GetDecompressionStream(Stream,wan24.Compression.CompressionOptions)
-  fullName: wan24.Compression.LZ4.Lz4CompressionAlgorithm.GetDecompressionStream(Stream, wan24.Compression.CompressionOptions)
-  nameWithType: Lz4CompressionAlgorithm.GetDecompressionStream(Stream, CompressionOptions)
-- uid: wan24.Compression.LZ4.Lz4CompressionAlgorithm.GetDecompressionStream*
-  name: GetDecompressionStream
-  href: api/wan24.Compression.LZ4.Lz4CompressionAlgorithm.html#wan24_Compression_LZ4_Lz4CompressionAlgorithm_GetDecompressionStream_
-  commentId: Overload:wan24.Compression.LZ4.Lz4CompressionAlgorithm.GetDecompressionStream
-  isSpec: "True"
-  fullName: wan24.Compression.LZ4.Lz4CompressionAlgorithm.GetDecompressionStream
-  nameWithType: Lz4CompressionAlgorithm.GetDecompressionStream
 - uid: wan24.Compression.LZ4.Lz4CompressionAlgorithm.Instance
   name: Instance
   href: api/wan24.Compression.LZ4.Lz4CompressionAlgorithm.html#wan24_Compression_LZ4_Lz4CompressionAlgorithm_Instance
