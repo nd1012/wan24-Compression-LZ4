@@ -9,7 +9,7 @@ namespace wan24.Compression.LZ4
     /// <summary>
     /// LZ4 compression algorithm
     /// </summary>
-    public sealed class Lz4CompressionAlgorithm : CompressionAlgorithmBase
+    public sealed record class Lz4CompressionAlgorithm : CompressionAlgorithmBase
     {
         /// <summary>
         /// Algorithm name
