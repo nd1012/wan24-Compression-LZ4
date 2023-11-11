@@ -9,7 +9,7 @@
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
     <PackageId>wan24-Compression-LZ4</PackageId>
     <Title>wan24-Compression-LZ4</Title>
-    <Version>1.20.1</Version>
+    <Version>1.20.2</Version>
     <Authors>nd1012</Authors>
     <Company>Andreas Zimmermann, wan24.de</Company>
     <Product>wan24-Compression-LZ4</Product>
@@ -34,8 +34,8 @@
   <ItemGroup>
     <PackageReference Include="K4os.Compression.LZ4.Streams" Version="1.3.6" />
     <PackageReference Include="Mapping-Object" Version="1.3.1" Condition="'$(Configuration)' != 'Trunk'" />
-    <PackageReference Include="wan24-Compression" Version="1.20.1" Condition="'$(Configuration)' != 'Trunk'" />
-    <PackageReference Include="wan24-Core" Version="1.39.0" Condition="'$(Configuration)' != 'Trunk'" />
+    <PackageReference Include="wan24-Compression" Version="1.20.2" Condition="'$(Configuration)' != 'Trunk'" />
+    <PackageReference Include="wan24-Core" Version="1.42.0" Condition="'$(Configuration)' != 'Trunk'" />
 	<ProjectReference Include="..\..\..\Stream-Serializer-Extensions\src\Stream-Serializer-Extensions\Stream-Serializer-Extensions.csproj" Condition="'$(Configuration)' == 'Trunk'" />
 	<ProjectReference Include="..\..\..\ObjectValidation\src\ObjectValidation\ObjectValidation.csproj" Condition="'$(Configuration)' == 'Trunk'" />
 	<ProjectReference Include="..\..\..\wan24-Core\src\Wan24-Core\Wan24-Core.csproj" Condition="'$(Configuration)' == 'Trunk'" />
