@@ -1,6 +1,5 @@
 {
-  "homepages": [],
-  "source_base_path": "D:/P/wan24-Compression-LZ4/src/wan24-Compression-LZ4 Docs",
+  "source_base_path": "/home/runner/work/wan24-Compression-LZ4/wan24-Compression-LZ4/src/wan24-Compression-LZ4 Docs",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -8,11 +7,9 @@
       "source_relative_path": "api/index.md",
       "output": {
         ".html": {
-          "relative_path": "api/index.html",
-          "hash": "G2/VHiDHnNEfaT5f+G11cEPrM0C7eaPO8LaxybvRcN0="
+          "relative_path": "api/index.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -20,23 +17,12 @@
       "source_relative_path": "api/toc.yml",
       "output": {
         ".html": {
-          "relative_path": "api/toc.html",
-          "hash": "Goae6zmgx7BFRGpDuME452C5AjlsvjgzOL2fZO6TzDM="
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
         }
       },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/wan24.Compression.LZ4..yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/wan24.Compression.LZ4..html",
-          "hash": "zNbs4Ht8Xlx1jRFwrG7YwAhEfsIWVBHdd8a+Skgo85k="
-        }
-      },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -44,11 +30,19 @@
       "source_relative_path": "api/wan24.Compression.LZ4.Bootstrap.yml",
       "output": {
         ".html": {
-          "relative_path": "api/wan24.Compression.LZ4.Bootstrap.html",
-          "hash": "ukGQ6AFNoI2JtoeliJLJYCqxTGH7pH02bolHGnf0TxM="
+          "relative_path": "api/wan24.Compression.LZ4.Bootstrap.html"
         }
       },
-      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/wan24.Compression.LZ4.Lz4CompressionAlgorithm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/wan24.Compression.LZ4.Lz4CompressionAlgorithm.html"
+        }
+      },
       "version": ""
     },
     {
@@ -56,11 +50,9 @@
       "source_relative_path": "api/wan24.Compression.LZ4.yml",
       "output": {
         ".html": {
-          "relative_path": "api/wan24.Compression.LZ4.html",
-          "hash": "OFPDKi8w0JRYYS8YTHVUOdMSZU1SPQIna1e5LpOXhqQ="
+          "relative_path": "api/wan24.Compression.LZ4.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -68,11 +60,9 @@
       "source_relative_path": "articles/intro.md",
       "output": {
         ".html": {
-          "relative_path": "articles/intro.html",
-          "hash": "4Zo/rniPI3yhNnqFG/I1iX//JU/RZQSABFpWrV/e4P0="
+          "relative_path": "articles/intro.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -80,11 +70,12 @@
       "source_relative_path": "articles/toc.yml",
       "output": {
         ".html": {
-          "relative_path": "articles/toc.html",
-          "hash": "BlPxk5mtl2kgfcZUgkEguqiSAR/EUyUTT4EdebwkQvs="
+          "relative_path": "articles/toc.html"
+        },
+        ".json": {
+          "relative_path": "articles/toc.json"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -92,11 +83,9 @@
       "source_relative_path": "index.md",
       "output": {
         ".html": {
-          "relative_path": "index.html",
-          "hash": "RWZJvFms3p50AC2A34Ym1c2aqYVy6Bht3rJKb5jE/mE="
+          "relative_path": "index.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -104,58 +93,15 @@
       "source_relative_path": "toc.yml",
       "output": {
         ".html": {
-          "relative_path": "toc.html",
-          "hash": "s+UecGKJLe11K3w4+MJjx6QoiqktkO8teeQG06lk8L0="
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
         }
       },
-      "is_incremental": false,
       "version": ""
     }
   ],
-  "incremental_info": [
-    {
-      "status": {
-        "can_incremental": false,
-        "details": "Disable incremental build by force rebuild option.",
-        "incrementalPhase": "build",
-        "total_file_count": 0,
-        "skipped_file_count": 0,
-        "full_build_reason_code": "ForceRebuild"
-      },
-      "processors": {
-        "ConceptualDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build",
-          "total_file_count": 3,
-          "skipped_file_count": 0
-        },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build",
-          "total_file_count": 3,
-          "skipped_file_count": 0
-        },
-        "TocDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build",
-          "total_file_count": 0,
-          "skipped_file_count": 0
-        }
-      }
-    },
-    {
-      "status": {
-        "can_incremental": false,
-        "details": "Cannot support incremental post processing, the reason is: it's disabled.",
-        "incrementalPhase": "postProcessing",
-        "total_file_count": 0,
-        "skipped_file_count": 0
-      },
-      "processors": {}
-    }
-  ],
-  "version_info": {},
   "groups": [
     {
       "xrefmap": "xrefmap.yml"
