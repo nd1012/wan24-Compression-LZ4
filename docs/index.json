@@ -1,0 +1,32 @@
+{
+  "api/index.html": {
+    "href": "api/index.html",
+    "title": "API reference | wan24-Compression-LZ4",
+    "keywords": "API reference Choose a type from the left to start browsing."
+  },
+  "api/wan24.Compression.LZ4.Bootstrap.html": {
+    "href": "api/wan24.Compression.LZ4.Bootstrap.html",
+    "title": "Class Bootstrap | wan24-Compression-LZ4",
+    "keywords": "Class Bootstrap Bootstrapper Inheritance object Bootstrap Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Namespace: wan24.Compression.LZ4 Assembly: wan24CompressionLZ4.dll Syntax public static class Bootstrap Methods | Edit this page View Source Boot() Boot Declaration public static void Boot()"
+  },
+  "api/wan24.Compression.LZ4.Lz4CompressionAlgorithm.html": {
+    "href": "api/wan24.Compression.LZ4.Lz4CompressionAlgorithm.html",
+    "title": "Class Lz4CompressionAlgorithm | wan24-Compression-LZ4",
+    "keywords": "Class Lz4CompressionAlgorithm LZ4 compression algorithm Inheritance object CompressionAlgorithmBase Lz4CompressionAlgorithm Implements IEquatable<CompressionAlgorithmBase> IEquatable<Lz4CompressionAlgorithm> Inherited Members CompressionAlgorithmBase.Compress(Stream, Stream, CompressionOptions) CompressionAlgorithmBase.CompressAsync(Stream, Stream, CompressionOptions, CancellationToken) CompressionAlgorithmBase.GetCompressionStream(Stream, CompressionOptions) CompressionAlgorithmBase.Decompress(Stream, Stream, CompressionOptions) CompressionAlgorithmBase.DecompressAsync(Stream, Stream, CompressionOptions, CancellationToken) CompressionAlgorithmBase.GetDecompressionStream(Stream, CompressionOptions) CompressionAlgorithmBase.WriteOptions(Stream, Stream, CompressionOptions) CompressionAlgorithmBase.WriteOptionsAsync(Stream, Stream, CompressionOptions, CancellationToken) CompressionAlgorithmBase.ReadOptions(Stream, Stream, CompressionOptions) CompressionAlgorithmBase.ReadOptionsAsync(Stream, Stream, CompressionOptions, CancellationToken) CompressionAlgorithmBase.ToString() CompressionAlgorithmBase.GetHashCode() CompressionAlgorithmBase.Equals(object) CompressionAlgorithmBase.Equals(CompressionAlgorithmBase) CompressionAlgorithmBase.<Clone>$() CompressionAlgorithmBase.Name CompressionAlgorithmBase.Value CompressionAlgorithmBase.DefaultOptions object.Equals(object, object) object.GetType() object.ReferenceEquals(object, object) Namespace: wan24.Compression.LZ4 Assembly: wan24CompressionLZ4.dll Syntax public sealed record Lz4CompressionAlgorithm : CompressionAlgorithmBase, IEquatable<CompressionAlgorithmBase>, IEquatable<Lz4CompressionAlgorithm> Fields | Edit this page View Source ALGORITHM_NAME Algorithm name Declaration public const string ALGORITHM_NAME = \"LZ4\" Field Value Type Description string | Edit this page View Source ALGORITHM_VALUE Algorithm value Declaration public const int ALGORITHM_VALUE = 2 Field Value Type Description int | Edit this page View Source PROFILE_LZ4_RAW LZ4 raw (without header) profile key Declaration public const string PROFILE_LZ4_RAW = \"LZ4_RAW\" Field Value Type Description string Properties | Edit this page View Source DecoderSettings Decoder settings Declaration public static LZ4DecoderSettings DecoderSettings { get; set; } Property Value Type Description LZ4DecoderSettings | Edit this page View Source EncoderSettings Encoder settings Declaration public static LZ4EncoderSettings EncoderSettings { get; set; } Property Value Type Description LZ4EncoderSettings | Edit this page View Source Instance Singleton instance Declaration public static Lz4CompressionAlgorithm Instance { get; } Property Value Type Description Lz4CompressionAlgorithm Methods | Edit this page View Source CreateCompressionStream(Stream, CompressionOptions) Create a compression stream Declaration protected override Stream CreateCompressionStream(Stream compressedTarget, CompressionOptions options) Parameters Type Name Description Stream compressedTarget Target stream CompressionOptions options Options Returns Type Description Stream Compression stream Overrides CompressionAlgorithmBase.CreateCompressionStream(Stream, CompressionOptions) | Edit this page View Source CreateDecompressionStream(Stream, CompressionOptions) Create a decompression stream Declaration protected override Stream CreateDecompressionStream(Stream source, CompressionOptions options) Parameters Type Name Description Stream source CompressionOptions options Options Returns Type Description Stream Decompression stream Overrides CompressionAlgorithmBase.CreateDecompressionStream(Stream, CompressionOptions) Implements IEquatable<T> IEquatable<T>"
+  },
+  "api/wan24.Compression.LZ4.html": {
+    "href": "api/wan24.Compression.LZ4.html",
+    "title": "Namespace wan24.Compression.LZ4 | wan24-Compression-LZ4",
+    "keywords": "Namespace wan24.Compression.LZ4 Classes Bootstrap Bootstrapper Lz4CompressionAlgorithm LZ4 compression algorithm"
+  },
+  "articles/intro.html": {
+    "href": "articles/intro.html",
+    "title": "Add your introductions here! | wan24-Compression-LZ4",
+    "keywords": "Add your introductions here!"
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "wan24-Compression-LZ4 | wan24-Compression-LZ4",
+    "keywords": "wan24-Compression-LZ4 This library adopts K4os.Compression.LZ4 to wan24-Compression and extends the wan24-Compression library with these algorithms: Algorithm ID Name LZ4 2 LZ4 How to get it This library is available as NuGet package. Usage In case you don't use the wan24-Core bootstrapper logic, you need to initialize the LZ4 extension first, before you can use it: wan24.Compression.LZ4.Bootstrapper.Boot(); This will register the compression algorithm to the wan24-Compression library."
+  }
+}
