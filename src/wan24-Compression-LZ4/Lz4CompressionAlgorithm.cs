@@ -20,6 +20,10 @@ namespace wan24.Compression.LZ4
         /// </summary>
         public const int ALGORITHM_VALUE = 2;
         /// <summary>
+        /// Algorithm display name
+        /// </summary>
+        public const string DISPLAY_NAME = "LZ4";
+        /// <summary>
         /// LZ4 raw (without header) profile key
         /// </summary>
         public const string PROFILE_LZ4_RAW = "LZ4_RAW";
@@ -38,6 +42,9 @@ namespace wan24.Compression.LZ4
         /// Singleton instance
         /// </summary>
         public static Lz4CompressionAlgorithm Instance { get; }
+
+        /// <inheritdoc/>
+        public override string DisplayName => DISPLAY_NAME;
 
         /// <summary>
         /// Encoder settings
