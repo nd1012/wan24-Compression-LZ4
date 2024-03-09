@@ -70,6 +70,12 @@ references:
   isSpec: "True"
   fullName: wan24.Compression.LZ4.Lz4CompressionAlgorithm.CreateDecompressionStream
   nameWithType: Lz4CompressionAlgorithm.CreateDecompressionStream
+- uid: wan24.Compression.LZ4.Lz4CompressionAlgorithm.DISPLAY_NAME
+  name: DISPLAY_NAME
+  href: api/wan24.Compression.LZ4.Lz4CompressionAlgorithm.html#wan24_Compression_LZ4_Lz4CompressionAlgorithm_DISPLAY_NAME
+  commentId: F:wan24.Compression.LZ4.Lz4CompressionAlgorithm.DISPLAY_NAME
+  fullName: wan24.Compression.LZ4.Lz4CompressionAlgorithm.DISPLAY_NAME
+  nameWithType: Lz4CompressionAlgorithm.DISPLAY_NAME
 - uid: wan24.Compression.LZ4.Lz4CompressionAlgorithm.DecoderSettings
   name: DecoderSettings
   href: api/wan24.Compression.LZ4.Lz4CompressionAlgorithm.html#wan24_Compression_LZ4_Lz4CompressionAlgorithm_DecoderSettings
@@ -83,6 +89,19 @@ references:
   isSpec: "True"
   fullName: wan24.Compression.LZ4.Lz4CompressionAlgorithm.DecoderSettings
   nameWithType: Lz4CompressionAlgorithm.DecoderSettings
+- uid: wan24.Compression.LZ4.Lz4CompressionAlgorithm.DisplayName
+  name: DisplayName
+  href: api/wan24.Compression.LZ4.Lz4CompressionAlgorithm.html#wan24_Compression_LZ4_Lz4CompressionAlgorithm_DisplayName
+  commentId: P:wan24.Compression.LZ4.Lz4CompressionAlgorithm.DisplayName
+  fullName: wan24.Compression.LZ4.Lz4CompressionAlgorithm.DisplayName
+  nameWithType: Lz4CompressionAlgorithm.DisplayName
+- uid: wan24.Compression.LZ4.Lz4CompressionAlgorithm.DisplayName*
+  name: DisplayName
+  href: api/wan24.Compression.LZ4.Lz4CompressionAlgorithm.html#wan24_Compression_LZ4_Lz4CompressionAlgorithm_DisplayName_
+  commentId: Overload:wan24.Compression.LZ4.Lz4CompressionAlgorithm.DisplayName
+  isSpec: "True"
+  fullName: wan24.Compression.LZ4.Lz4CompressionAlgorithm.DisplayName
+  nameWithType: Lz4CompressionAlgorithm.DisplayName
 - uid: wan24.Compression.LZ4.Lz4CompressionAlgorithm.EncoderSettings
   name: EncoderSettings
   href: api/wan24.Compression.LZ4.Lz4CompressionAlgorithm.html#wan24_Compression_LZ4_Lz4CompressionAlgorithm_EncoderSettings
