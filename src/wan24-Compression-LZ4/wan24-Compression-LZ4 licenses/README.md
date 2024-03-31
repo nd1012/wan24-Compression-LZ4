@@ -10,7 +10,7 @@ Linked project and license URIs come from the referenced NuGet package meta
 data. None of these libraries have been modified and are being used in their 
 original published form.
 
-## wan24-Compression referenced libraries
+## wan24-Compression-LZ4 referenced libraries
 
 The published `wan24-Compression-LZ4` library uses the following referenced open 
 source libraries:
