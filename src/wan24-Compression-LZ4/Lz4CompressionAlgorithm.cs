@@ -2,7 +2,6 @@
 using K4os.Compression.LZ4.Streams;
 using System.IO.Compression;
 using wan24.Core;
-using wan24.MappingObject;
 
 namespace wan24.Compression.LZ4
 {
@@ -60,7 +59,7 @@ namespace wan24.Compression.LZ4
         protected override Stream CreateCompressionStream(Stream compressedTarget, CompressionOptions options)
         {
             if (options.Level == CompressionLevel.NoCompression) return new LimitedStream(compressedTarget, canRead: false, canWrite: true, canSeek: false, options.LeaveOpen);
-            LZ4EncoderSettings settings = Mappings.MapTo(EncoderSettings, new LZ4EncoderSettings());
+            LZ4EncoderSettings settings = EncoderSettings.MapTo(new LZ4EncoderSettings());
             settings.CompressionLevel = options.Level switch
             {
                 CompressionLevel.Fastest => LZ4Level.L00_FAST,
