@@ -19,7 +19,6 @@ source libraries:
 | ------- | ------- |
 | [`wan24-Core`](https://github.com/WAN-Solutions/wan24-Core) | [MIT](https://github.com/WAN-Solutions/wan24-Core/blob/main/LICENSE) |
 | [`wan24-Compression`](https://github.com/nd1012/wan24-Compression) | [MIT](https://github.com/nd1012/wan24-Compression/blob/main/LICENSE) |
-| [`Mapping-Object`](https://github.com/nd1012/Mapping-Object) | [MIT](https://github.com/nd1012/Mapping-Object/blob/main/LICENSE) |
 | [`K4os.Compression.LZ4.Streams`](https://github.com/MiloszKrajewski/K4os.Compression.LZ4) | [MIT](https://raw.githubusercontent.com/MiloszKrajewski/K4os.Compression.LZ4/master/LICENSE) |
 
 These referenced libraries have transistive references to these open source 
