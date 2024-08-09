@@ -7,8 +7,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "wan24-Compression-LZ4", "wa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "wan24-Compression-LZ4 Tests", "wan24-Compression-LZ4 Tests\wan24-Compression-LZ4 Tests.csproj", "{290D8EA7-5F96-40A2-9BA0-05D3973A0BBA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MappingObject", "..\..\Mapping-Object\src\MappingObject\MappingObject.csproj", "{6EBE2B1A-53CD-4CE2-BB33-9D23DC23FB24}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wan24-Core", "..\..\wan24-Core\src\Wan24-Core\Wan24-Core.csproj", "{3D341FEA-8D4E-4ABA-8793-7A1CF119CAAF}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "wan24-Compression", "..\..\wan24-Compression\src\wan24-Compression\wan24-Compression.csproj", "{CA69D3BE-5A4B-4B16-877E-AD80C704F1E7}"
@@ -36,21 +34,22 @@ Global
 		{290D8EA7-5F96-40A2-9BA0-05D3973A0BBA}.Release|Any CPU.Build.0 = Release|Any CPU
 		{290D8EA7-5F96-40A2-9BA0-05D3973A0BBA}.Trunk|Any CPU.ActiveCfg = Trunk|Any CPU
 		{290D8EA7-5F96-40A2-9BA0-05D3973A0BBA}.Trunk|Any CPU.Build.0 = Trunk|Any CPU
-		{6EBE2B1A-53CD-4CE2-BB33-9D23DC23FB24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6EBE2B1A-53CD-4CE2-BB33-9D23DC23FB24}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6EBE2B1A-53CD-4CE2-BB33-9D23DC23FB24}.Trunk|Any CPU.ActiveCfg = Debug|Any CPU
 		{3D341FEA-8D4E-4ABA-8793-7A1CF119CAAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3D341FEA-8D4E-4ABA-8793-7A1CF119CAAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3D341FEA-8D4E-4ABA-8793-7A1CF119CAAF}.Trunk|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D341FEA-8D4E-4ABA-8793-7A1CF119CAAF}.Trunk|Any CPU.ActiveCfg = Trunk|Any CPU
+		{3D341FEA-8D4E-4ABA-8793-7A1CF119CAAF}.Trunk|Any CPU.Build.0 = Trunk|Any CPU
 		{CA69D3BE-5A4B-4B16-877E-AD80C704F1E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{CA69D3BE-5A4B-4B16-877E-AD80C704F1E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA69D3BE-5A4B-4B16-877E-AD80C704F1E7}.Trunk|Any CPU.ActiveCfg = Trunk|Any CPU
+		{CA69D3BE-5A4B-4B16-877E-AD80C704F1E7}.Trunk|Any CPU.Build.0 = Trunk|Any CPU
 		{571BE233-1134-4028-BAD1-0B3425D0D3C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{571BE233-1134-4028-BAD1-0B3425D0D3C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{571BE233-1134-4028-BAD1-0B3425D0D3C4}.Trunk|Any CPU.ActiveCfg = Trunk|Any CPU
+		{571BE233-1134-4028-BAD1-0B3425D0D3C4}.Trunk|Any CPU.Build.0 = Trunk|Any CPU
 		{C4216C2D-0004-4950-AA38-1528ADCE3D50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C4216C2D-0004-4950-AA38-1528ADCE3D50}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C4216C2D-0004-4950-AA38-1528ADCE3D50}.Trunk|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4216C2D-0004-4950-AA38-1528ADCE3D50}.Trunk|Any CPU.ActiveCfg = Trunk|Any CPU
+		{C4216C2D-0004-4950-AA38-1528ADCE3D50}.Trunk|Any CPU.Build.0 = Trunk|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

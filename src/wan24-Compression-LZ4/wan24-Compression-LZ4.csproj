@@ -9,7 +9,7 @@
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
     <PackageId>wan24-Compression-LZ4</PackageId>
     <Title>wan24-Compression-LZ4</Title>
-    <Version>2.8.1</Version>
+    <Version>2.9.0</Version>
     <Authors>nd1012</Authors>
     <Company>Andreas Zimmermann, wan24.de</Company>
     <Product>wan24-Compression-LZ4</Product>
@@ -39,7 +39,6 @@
 	<ProjectReference Include="..\..\..\ObjectValidation\src\ObjectValidation\ObjectValidation.csproj" Condition="'$(Configuration)' == 'Trunk'" />
 	<ProjectReference Include="..\..\..\wan24-Core\src\Wan24-Core\Wan24-Core.csproj" Condition="'$(Configuration)' == 'Trunk'" />
     <ProjectReference Include="..\..\..\wan24-Compression\src\wan24-Compression\wan24-Compression.csproj" Condition="'$(Configuration)' == 'Trunk'" />
-	<ProjectReference Include="..\..\..\Mapping-Object\src\MappingObject\MappingObject.csproj" Condition="'$(Configuration)' == 'Trunk'" />
   </ItemGroup>
 
   <ItemGroup>
