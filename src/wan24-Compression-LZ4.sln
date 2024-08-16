@@ -15,6 +15,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stream-Serializer-Extension
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObjectValidation", "..\..\ObjectValidation\src\ObjectValidation\ObjectValidation.csproj", "{C4216C2D-0004-4950-AA38-1528ADCE3D50}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Referenced", "Referenced", "{CFACD6DB-0D61-4652-943A-3505D0A817FA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,6 +55,12 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3D341FEA-8D4E-4ABA-8793-7A1CF119CAAF} = {CFACD6DB-0D61-4652-943A-3505D0A817FA}
+		{CA69D3BE-5A4B-4B16-877E-AD80C704F1E7} = {CFACD6DB-0D61-4652-943A-3505D0A817FA}
+		{571BE233-1134-4028-BAD1-0B3425D0D3C4} = {CFACD6DB-0D61-4652-943A-3505D0A817FA}
+		{C4216C2D-0004-4950-AA38-1528ADCE3D50} = {CFACD6DB-0D61-4652-943A-3505D0A817FA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9EB90EF7-98A3-4A53-88B7-0664014F5CF9}
