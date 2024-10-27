@@ -6,6 +6,10 @@ namespace wan24_Compression_Tests
     public class A_Initialization
     {
         [AssemblyInitialize]
-        public static void Init(TestContext tc) => TestsInitialization.Init(tc);
+        public static void Init(TestContext tc)
+        {
+            TestsInitialization.Init(tc);
+            wan24.Compression.LZ4.Bootstrap.Boot();
+        }
     }
 }
